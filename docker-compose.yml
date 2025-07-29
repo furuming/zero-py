@@ -1,0 +1,6 @@
+services:
+  python:
+    build:
+      context: .
+      dockerfile: dockerfile
+    tty: true
